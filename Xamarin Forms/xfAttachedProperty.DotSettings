@@ -1,0 +1,39 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Shortcut/@EntryValue">xfAttachedProperty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Description/@EntryValue">Create a Xamarin.Forms attached property</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Text/@EntryValue">public static readonly BindableProperty $Name$Property = BindableProperty.CreateAttached&lt;$Class$, $Type$&gt;(&#xD;
+               bindable =&gt; Get$Name$(bindable),&#xD;
+               default($Type$),&#xD;
+               BindingMode.OneWay,&#xD;
+               null,&#xD;
+               On$Name$Changed);&#xD;
+&#xD;
+public static $Type$ Get$Name$(BindableObject obj)&#xD;
+{&#xD;
+    return ($Type$)obj.GetValue($Name$Property);&#xD;
+}&#xD;
+&#xD;
+public static void Set$Name$(BindableObject obj, $Type$ value)&#xD;
+{&#xD;
+    obj.SetValue($Name$Property, value);&#xD;
+}&#xD;
+&#xD;
+public static void On$Name$Changed(BindableObject obj, $Type$ oldValue, $Type$ newValue)&#xD;
+{&#xD;
+    $END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Field/=Type/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Field/=Type/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Field/=Name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Field/=Name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Field/=Class/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Field/=Class/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Field/=Class/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7AB74B28A0A2734983CEB52DF090827D/Field/=Class/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>

@@ -1,0 +1,33 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Shortcut/@EntryValue">wpfDependencyProperty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Description/@EntryValue">Dependency property</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Text/@EntryValue">public static readonly $dependencyProperty$ $propertyName$Property = $dependencyProperty$.Register(&#xD;
+  "$propertyName$", typeof($propertyType$), typeof($containingType$), new PropertyMetadata(default($propertyType$)));&#xD;
+&#xD;
+public $propertyType$ $propertyName$&#xD;
+{&#xD;
+  get { return ($propertyType$) GetValue($propertyName$Property); }&#xD;
+  set { SetValue($propertyName$Property, value); }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=propertyType/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=propertyType/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=propertyType/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=propertyName/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=propertyName/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=propertyName/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=propertyName/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=containingType/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=dependencyProperty/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=dependencyProperty/Expression/@EntryValue">dependencyPropertyType()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=dependencyProperty/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Field/=dependencyProperty/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
