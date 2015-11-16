@@ -1,0 +1,22 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Shortcut/@EntryValue">xfRelativeContraints</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Description/@EntryValue">Add all four relative layout constraints</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Text/@EntryValue">RelativeLayout.WidthConstraint="{ConstraintExpression $Width$}"&#xD;
+RelativeLayout.HeightConstraint="{ConstraintExpression $Height$}"&#xD;
+RelativeLayout.XConstraint="{ConstraintExpression $X$}"&#xD;
+RelativeLayout.YConstraint="{ConstraintExpression $Y$}"</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Field/=Width/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Field/=Width/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Field/=Height/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Field/=Height/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Field/=X/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Field/=X/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Field/=Y/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90676116FE3CDE4D8D8E283D86D1D3EA/Field/=Y/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
