@@ -1,7 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Shortcut/@EntryValue">xfBindableProperty</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Text/@EntryValue">public static readonly BindableProperty $Name$Property = BindableProperty.Create&lt;$ContainerType$, $Type$&gt;(x =&gt; x.$Name$, default($Type$));&#xD;
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Text/@EntryValue">public static readonly BindableProperty $Name$Property = BindableProperty.Create(nameof($Name$), typeof($Type$), typeof($ContainerType$), default($Type$));&#xD;
 public $Type$ $Name$&#xD;
 {&#xD;
     get { return ($Type$)GetValue($Name$Property); }&#xD;
