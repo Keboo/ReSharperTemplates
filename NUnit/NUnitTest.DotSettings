@@ -1,7 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09E4B007CADC7F40AAE4DA7108C45E6A/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09E4B007CADC7F40AAE4DA7108C45E6A/Shortcut/@EntryValue">NUnitTest</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09E4B007CADC7F40AAE4DA7108C45E6A/Description/@EntryValue">Basic structure for an NUnit Test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09E4B007CADC7F40AAE4DA7108C45E6A/Description/@EntryValue">Basic structure for an NUnitTest</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09E4B007CADC7F40AAE4DA7108C45E6A/Text/@EntryValue">[Test]&#xD;
 public void $NAME$()&#xD;
 {&#xD;
@@ -11,6 +11,7 @@ public void $NAME$()&#xD;
     //Act&#xD;
 &#xD;
     //Assert&#xD;
+    mocker.VerifyAll();&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09E4B007CADC7F40AAE4DA7108C45E6A/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=09E4B007CADC7F40AAE4DA7108C45E6A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
