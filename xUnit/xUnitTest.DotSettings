@@ -1,0 +1,24 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Shortcut/@EntryValue">xUnitTest</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Description/@EntryValue">A blank xUnit test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Text/@EntryValue">[Fact]&#xD;
+[Description("$Description$")]&#xD;
+public void $TestName$()&#xD;
+{&#xD;
+    //Arrange&#xD;
+    $END$&#xD;
+    //Act&#xD;
+&#xD;
+    //Assert&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Field/=Description/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Field/=Description/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Field/=TestName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8EEC9DBF2F6C6F4CA7900CCE90664289/Field/=TestName/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
