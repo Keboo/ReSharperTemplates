@@ -5,8 +5,8 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/Text/@EntryValue">private $Type$ _$fieldName$;&#xD;
 public $Type$ $PropertyName$&#xD;
 {&#xD;
-    get { return _$fieldName$; }&#xD;
-	set { Set(ref _$fieldName$, value); }&#xD;
+    get =&gt; _$fieldName$; }&#xD;
+    set =&gt; Set(ref _$fieldName$, value);&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
