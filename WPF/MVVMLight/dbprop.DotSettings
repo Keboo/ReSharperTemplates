@@ -5,11 +5,12 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/Text/@EntryValue">private $Type$ _$fieldName$;&#xD;
 public $Type$ $PropertyName$&#xD;
 {&#xD;
-    get =&gt; _$fieldName$; }&#xD;
+    get =&gt; _$fieldName$;&#xD;
     set =&gt; Set(ref _$fieldName$, value);&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/Categories/=Imported_002012_002F22_002F2016/@EntryIndexedValue">Imported 12/22/2016</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6A9E0E1B9875364799B4E17C07084CFC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
