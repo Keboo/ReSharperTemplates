@@ -7,8 +7,8 @@
 &#xD;
 public $propertyType$ $propertyName$&#xD;
 {&#xD;
-  get { return ($propertyType$) GetValue($propertyName$Property); }&#xD;
-  set { SetValue($propertyName$Property, value); }&#xD;
+  get =&gt; ($propertyType$) GetValue($propertyName$Property);&#xD;
+  set =&gt; SetValue($propertyName$Property, value);&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=61E52A32A8000749A65D71522F7675B8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
