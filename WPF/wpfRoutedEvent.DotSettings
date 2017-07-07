@@ -1,0 +1,29 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Shortcut/@EntryValue">wpfRoutedEvent</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Description/@EntryValue">A simple routed event</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Text/@EntryValue">public static readonly RoutedEvent $EventName$Event = EventManager.RegisterRoutedEvent(nameof($EventName$),&#xD;
+    RoutingStrategy.Bubble, typeof($DelegateType$), typeof($ContainerType$));&#xD;
+&#xD;
+public event $DelegateType$ $EventName$&#xD;
+{&#xD;
+    add =&gt; AddHandler($EventName$Event, value);&#xD;
+    remove =&gt; RemoveHandler($EventName$Event, value);&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=EventName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=EventName/InitialRange/@EntryValue">2</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=EventName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=ContainerType/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=ContainerType/Expression/@EntryValue">typeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=ContainerType/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=ContainerType/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=DelegateType/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=DelegateType/Expression/@EntryValue">constant("RoutedEventHandler")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=DelegateType/InitialRange/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E184DBA65B728444AF91E3296FDCB628/Field/=DelegateType/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
