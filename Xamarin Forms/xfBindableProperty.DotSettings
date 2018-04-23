@@ -4,11 +4,12 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Text/@EntryValue">public static readonly BindableProperty $Name$Property = BindableProperty.Create(nameof($Name$), typeof($Type$), typeof($ContainerType$), default($Type$));&#xD;
 public $Type$ $Name$&#xD;
 {&#xD;
-    get { return ($Type$)GetValue($Name$Property); }&#xD;
-    set { SetValue($Name$Property, value); }&#xD;
+    get =&gt; ($Type$)GetValue($Name$Property);&#xD;
+    set =&gt; SetValue($Name$Property, value);&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Categories/=Imported_00203_002F21_002F2018/@EntryIndexedValue">Imported 3/21/2018</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DD17A93F268CB488061A789C8AB06B7/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
